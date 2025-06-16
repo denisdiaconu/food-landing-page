@@ -1,7 +1,12 @@
 import React from 'react';
+import Nav from './Nav';
+import MobileNav from './MobileNav';
 
 const ResponsiveNav = () => {
-  return <div>ResponsiveNav</div>;
+  return <div>
+    <Nav />
+    <MobileNav />
+  </div>;
 };
 
 export default ResponsiveNav;
