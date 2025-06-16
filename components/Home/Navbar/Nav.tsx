@@ -28,6 +28,11 @@ const Nav = () => {
             );
           })}
         </div>
+        <div className="flex items-center space-x-4">
+          <button className="bg-blue-950 text-white font-bold px-8 py-2.5 rounded-lg hover:bg-black transition-all duration-300 cursor-pointer">
+            Join Now
+          </button>
+        </div>
       </div>
     </div>
   );
