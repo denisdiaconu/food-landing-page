@@ -5,7 +5,11 @@ import React, { useEffect, useState } from 'react';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { MdDeliveryDining } from 'react-icons/md';
 
-const Nav = () => {
+type Props = {
+  openNav: () => void;
+};
+
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -53,7 +57,7 @@ const Nav = () => {
           <button className="bg-blue-950 text-white font-bold px-8 py-2.5 rounded-lg hover:bg-black transition-all duration-300 cursor-pointer">
             Join Now
           </button>
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-blue-950 lg:hidden" />
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-blue-950 lg:hidden" />
         </div>
       </div>
     </div>
