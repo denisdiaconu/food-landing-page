@@ -57,7 +57,10 @@ const Nav = ({ openNav }: Props) => {
           <button className="bg-blue-950 text-white font-bold px-8 py-2.5 rounded-lg hover:bg-black transition-all duration-300 cursor-pointer">
             Join Now
           </button>
-          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-blue-950 lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-blue-950 lg:hidden"
+          />
         </div>
       </div>
     </div>
