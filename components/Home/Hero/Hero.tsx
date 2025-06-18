@@ -1,5 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
-import { FaLocationArrow } from 'react-icons/fa';
+import { FaApple, FaGooglePlay, FaLocationArrow } from 'react-icons/fa';
 import { GrMapLocation } from 'react-icons/gr';
 
 const Hero = () => {
@@ -29,8 +30,43 @@ const Hero = () => {
               </button>
             </div>
           </div>
+          <p className="text-gray-700 dark:text-gray-400 text-sm mb-6">
+            Get the app on your favorite platform:
+          </p>
+          <div className="flex space-x-4">
+            <a
+              href="#_"
+              className="flex items-center group border border-gray-400 px-4 py-3 rounded-md hover:bg-gray-950 transition-all duration-300"
+            >
+              <FaApple className="text-2xl mr-2 group-hover:text-white transition-all duration-300" />
+              <div>
+                <p className="text-xs group-hover:text-white transition-all duration-300">
+                  Download on the{' '}
+                </p>
+                <p className="text-sm font-semibold group-hover:text-white transition-all duration-300">
+                  App Store
+                </p>
+              </div>
+            </a>
+            <a
+              href="#_"
+              className="flex items-center group border border-gray-400 px-4 py-3 rounded-md hover:bg-gray-950 transition-all duration-300"
+            >
+              <FaGooglePlay className="text-2xl mr-2 group-hover:text-white transition-all duration-300" />
+              <div>
+                <p className="text-xs group-hover:text-white transition-all duration-300">
+                  Download on the{' '}
+                </p>
+                <p className="text-sm font-semibold group-hover:text-white transition-all duration-300">
+                  Google Play
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
-        <div>f</div>
+        <div className='mx-auto hidden xl:block'>
+            <Image src="/images/hero.png" alt='image' width={500} height={500}/>
+        </div>
       </div>
     </div>
   );
