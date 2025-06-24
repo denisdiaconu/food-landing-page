@@ -16,8 +16,32 @@ const About = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut unde
             vitae, provident placeat dolorum dicta
           </p>
-          <div>
-            
+          <div className='mt-8'>
+            <div className='flex mt-8 items-center space-x-6'>
+                <p className='text-3xl md:text-5xl opacity-40 font-bold'>01</p>
+                <div>
+                    <h1 className='text-base sm:text-lg font-extrabold'>Easy to use application</h1>
+                    <p className='mt-2 text-gray-800 dark:text-gray-300 font-medium text-sm sm:text-base'>We’re driven beyond just finishing the projects. We want to find solutions using our website & apps</p>
+                </div>
+            </div>
+          </div>
+           <div className='mt-8'>
+            <div className='flex mt-8 items-center space-x-6'>
+                <p className='text-3xl md:text-5xl opacity-40 font-bold'>02</p>
+                <div>
+                    <h1 className='text-base sm:text-lg font-extrabold'>Deliver Food within 30 min</h1>
+                    <p className='mt-2 text-gray-800 dark:text-gray-300 font-medium text-sm sm:text-base'>We’re driven beyond just finishing the projects. We want to find solutions using our website & apps</p>
+                </div>
+            </div>
+          </div>
+           <div className='mt-8'>
+            <div className='flex mt-8 items-center space-x-6'>
+                <p className='text-3xl md:text-5xl opacity-40 font-bold'>03</p>
+                <div>
+                    <h1 className='text-base sm:text-lg font-extrabold'>Reliable and Private — Guaranteed</h1>
+                    <p className='mt-2 text-gray-800 dark:text-gray-300 font-medium text-sm sm:text-base'>We’re driven beyond just finishing the projects. We want to find solutions using our website & apps</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
