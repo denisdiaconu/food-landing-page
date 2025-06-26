@@ -5,6 +5,7 @@ import Category from './Category/Category'
 import HowItWorks from './HowItWorks/HowItWorks'
 import About from './About/About'
 import Feature from './Feature/Feature'
+import ClientReview from './ClientReview/ClientReview'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HowItWorks />
       <About />
       <Feature />
+      <ClientReview />
     </div>
   )
 }
