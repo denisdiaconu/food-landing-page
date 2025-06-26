@@ -35,6 +35,7 @@ const ClientReview = () => {
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={4000}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
         >
           <ReviewCard
             reviewTitle="Fast, friendly, and reliable!"
