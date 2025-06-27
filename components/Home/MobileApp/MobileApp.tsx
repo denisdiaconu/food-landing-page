@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const MobileApp = () => {
   return (
@@ -23,6 +24,36 @@ const MobileApp = () => {
             just about completing projects—we're about finding real solutions
             through our website and mobile apps.
           </p>
+          <div className="sm:flex space-y-3 sm:space-y-0 space-x-4 mt-8">
+            <a
+              href="#_"
+              className="flex w-fit items-center group border border-gray-400 px-4 py-3 rounded-md bg-gray-950 transition-all duration-300"
+            >
+              <FaApple className="text-2xl mr-2 text-white transition-all duration-300" />
+              <div>
+                <p className="text-xs text-white transition-all duration-300">
+                  Download on the
+                </p>
+                <p className="text-sm font-semibold text-white transition-all duration-300">
+                  App Store
+                </p>
+              </div>
+            </a>
+            <a
+              href="#_"
+              className="flex w-fit items-center group border border-gray-400 px-4 py-3 rounded-md bg-gray-950 transition-all duration-300"
+            >
+              <FaGooglePlay className="text-2xl mr-2 text-white transition-all duration-300" />
+              <div>
+                <p className="text-xs text-white transition-all duration-300">
+                  Download on the
+                </p>
+                <p className="text-sm font-semibold text-white transition-all duration-300">
+                  Google Play
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
