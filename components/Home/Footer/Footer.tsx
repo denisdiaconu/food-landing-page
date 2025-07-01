@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
+import {
+  FaDribbble,
+  FaFacebook,
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+} from 'react-icons/fa';
 import { FaX } from 'react-icons/fa6';
 import { MdDeliveryDining } from 'react-icons/md';
 
@@ -64,6 +70,23 @@ const Footer = () => {
               email@example.com
             </h1>
           </div>
+        </div>
+      </div>
+      <div className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+        <p className="text-center text-white md:text-left">
+          &copy; {new Date().getFullYear()} Foodie. All rights reserved.
+        </p>
+        <div className="flex items-center text-white space-x-4 mt-4 md:mt-0">
+          <span>Social : </span>
+          <span className="text-white hover:text-gray-500">
+            <FaFacebook />
+          </span>
+          <span className="text-white hover:text-gray-500">
+            <FaX />
+          </span>
+          <span className="text-white hover:text-gray-500">
+            <FaDribbble />
+          </span>
         </div>
       </div>
     </div>
