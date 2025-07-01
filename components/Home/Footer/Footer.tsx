@@ -35,6 +35,36 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="space-y-5">
+          <h1 className="text-lg font-bold text-white">Company</h1>
+          <p className="footer__link">About</p>
+          <p className="footer__link">News & Press</p>
+          <p className="footer__link">Our Customers</p>
+          <p className="footer__link">Leadership</p>
+          <p className="footer__link">Careers</p>
+        </div>
+        <div className="space-y-5">
+          <h1 className="text-lg font-bold text-white">Resources</h1>
+          <p className="footer__link">Blog</p>
+          <p className="footer__link">Webinar & Events</p>
+          <p className="footer__link">Podcast</p>
+          <p className="footer__link">E-Book & Guides</p>
+        </div>
+        <div>
+          <h1 className="text-lg font-bold text-white">Contact Us</h1>
+          <div className="mt-6">
+            <h1 className="text-sm text-white">Our Mobile Number</h1>
+            <h1 className="text-base font-bold text-yellow-300 mt-1">
+              (555) 123-4567
+            </h1>
+          </div>
+          <div className="mt-6">
+            <h1 className="text-sm text-white">Our Email</h1>
+            <h1 className="text-base font-bold text-yellow-300 mt-1">
+              email@example.com
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );
