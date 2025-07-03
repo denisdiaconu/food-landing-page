@@ -30,6 +30,9 @@ const Category = () => {
           {categories.map((category, index) => {
             return (
               <span
+                data-aos="zoom-in"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-delay={index * 100}
                 key={index}
                 className="px-6 py-3 rounded-full cursor-pointer bg-gray-100 text-gray-900 dark:text-white dark:bg-gray-800 hover:bg-emerald-600 hover:text-white transition-all duration-300 font-semibold text-lg"
               >

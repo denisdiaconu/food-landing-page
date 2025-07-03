@@ -12,6 +12,9 @@ const MobileApp = () => {
           width={800}
           height={800}
           className="object-cover"
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-delay="0"
         />
         <div>
           <h1 className="text-2xl sm:text-4xl font-bold leading-8 sm:leading-12">
@@ -20,9 +23,9 @@ const MobileApp = () => {
           </h1>
           <p className="mt-6 text-sm sm:text-base text-gray-800 leading-6 sm:leading-8 dark:text-gray-400">
             Pick one of our stock themes, or create your own with the most
-            advanced theme editor available in any online survey tool. We're not
-            just about completing projects—we're about finding real solutions
-            through our website and mobile apps.
+            advanced theme editor available in any online survey tool.
+            We&apos;re not just about completing projects—we&apos;re about
+            finding real solutions through our website and mobile apps.
           </p>
           <div className="sm:flex space-y-3 sm:space-y-0 space-x-4 mt-8">
             <a
