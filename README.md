@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Food Landing Page
+
+A Food Landing page built with Next.js and TypeScript, providing a modern and responsive platform for an engaging user experience across devices.
+
+## Built With
+
+- JavaScript
+- Next.js
+- Typescript
+- Tailwind v4
+
+
+## 🔴 Live <a name = "here"></a>
+**Click [here](https://food-landing-page-seven.vercel.app/) in order to see the page of this project.**
+
+
+![Page](https://github.com/denisdiaconu/food-landing-page/blob/master/public/images/food-landing-page.png)
+
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple example steps on the command line.
 
+> Clone the project from it's github repo.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+  $ git clone https://github.com/denisdiaconu/food-landing-page.git
+  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Change directory to the root of project
+```bash
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  $ cd food-landing-page
+  
+```
+  
+> Install all dev dependencies
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  $ npm install
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+> Run the server
+```bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  $ npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 **Denis Andrei Diaconu**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
+- LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
