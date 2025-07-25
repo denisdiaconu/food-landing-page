@@ -1,6 +1,6 @@
 # Food Landing Page
 
-A Food Landing page built with Next.js and TypeScript, providing a modern and responsive platform for an engaging user experience across devices.
+A responsive and visually rich food brand landing page, developed using Next.js and TypeScript. Built with Tailwind v4, it emphasizes aesthetic appeal and performance, ideal for showcasing modern food businesses.
 
 ## Built With
 
